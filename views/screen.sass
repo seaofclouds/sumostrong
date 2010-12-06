@@ -1,0 +1,72 @@
+body
+  font-family: helvetica, sans-serif
+  background-color: #500000
+  line-height: 1.5em
+  font-size: 85%
+  color: #E1C470
+  .container
+    padding: 20px
+  h1
+    text-align: center
+    margin-bottom: 1em
+    font-size: 3em
+    text-transform: uppercase
+    line-height: 1.3em
+  h2, h3
+    margin: 0
+    padding: 0
+  li
+    padding-bottom: .5em
+  #ingredients
+    width: 30%
+    float: left
+    ul
+      padding-left: 1.3em
+      li
+        list-style-type: square
+  #instructions
+    background-color: #ddd
+    width: 70%
+    float: left
+    color: #500000
+    .container
+      padding: 20px 0 20px 20px
+    ol
+      padding-left: 1.7em
+    aside
+      float: right
+      width: 300px
+      margin-left: 20px
+      margin-bottom: 20px
+      background-color: #E1C470
+      color: #500000
+      h3
+        text-transform: uppercase
+        margin: 0
+        padding: 10px 10px 0 10px
+      p
+        margin: 0
+        padding: 0 10px 10px 10px
+
+@media all and (min-width: 1130px)
+  body
+    #noggin
+      width: 1070px
+      margin: 0 auto
+
+@media all and (max-width: 700px)
+  body
+    #ingredients, #instructions
+      float: none
+      width: auto
+    #instructions
+      padding: 20px
+      h3, p
+        padding: 0
+      aside
+        float: none
+        width: auto
+        margin: 0
+        margin-top: 1em
+      .container
+        padding: 0
