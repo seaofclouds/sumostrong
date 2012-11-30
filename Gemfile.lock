@@ -1,23 +1,26 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    daemons (1.1.0)
-    eventmachine (0.12.10)
+    chunky_png (1.2.6)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    fssm (0.2.9)
     haml (3.0.23)
     rack (1.2.1)
+    rdiscount (1.6.8)
+    sass (3.2.3)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
-    thin (1.2.7)
-      daemons (>= 1.0.9)
-      eventmachine (>= 0.12.6)
-      rack (>= 1.0.0)
     tilt (1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass
   haml
+  rdiscount
   sinatra
-  thin
