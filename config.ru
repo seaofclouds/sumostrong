@@ -1,4 +1,7 @@
-require 'main'
+require "bundler/setup"
+Bundler.require
+
+require './main'
 
 disable :logging unless defined?(Thin)
-run Sinatra::Application
+run App
