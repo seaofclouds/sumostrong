@@ -1,7 +1,10 @@
 source :rubygems
 
-gem 'sinatra'
-gem 'thin'
-gem 'rdiscount'
-gem 'haml'
-gem 'compass'
+gem "sinatra"
+gem "thin"
+gem "haml"
+gem "rdiscount"
+
+group :assets do
+  gem 'compass'
+end
