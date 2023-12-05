@@ -1,5 +1,7 @@
 # Sumo Strong Egg Nog
 
+Approximate yield: 3 liters, or 100 fl oz
+
 ## INGREDIENTS
 
 - 12 large eggs
